@@ -7,7 +7,10 @@
     height:60px;
     background-color: #0f1111;
     color:white;
+    display:flex;
+    align-items: center;
 }   
+
 .nav-logo{
     height:50px;
     width: 100px;
@@ -17,11 +20,31 @@
     background-size: cover;
     height:50px;
     width:100px;
+    margin:1px;
+    /* padding:1px 8px 0px 6px; */
 }
 .border{
     border:1.5px solid transparent;
+    padding: 2px;
 
 }
 .border:hover{
     border:1.5px solid white;
+    padding:2px;
+}
+/* box-2 address */
+.add-1{
+    color:#cccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-2{
+    font-size:1rem;
+    margin-left:3px;
+
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
 }
