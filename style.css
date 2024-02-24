@@ -9,6 +9,7 @@
     color:white;
     display:flex;
     align-items: center;
+    justify-content: space-evenly;
 }   
 
 .nav-logo{
@@ -46,5 +47,39 @@
 
 .add-icon{
     display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+/* navigation search */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f39b0d;
+    width:620px;
+    height: 40px;
+    border-radius:4px;
+    color: #0f1111;
+    /* align-items: center; */
+}
+.search-select{
+    background-color:#f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+
+}
+.serach-input{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+
+.search-icon{
+    width: 45px;
+    font-size:1.2rem;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
