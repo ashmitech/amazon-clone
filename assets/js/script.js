@@ -9,5 +9,16 @@ const student={
     isPassed: true,
 };
 console.log(student);
-// typeof student
+console.log(typeof student);
+console.log(typeof student["faculty"]);
 student["name"]="Ashmita Shiwakoti";
+
+let a=5;
+let b=100;
+ console.log("a = ", a, "& b = ", b);
+ console.log("a++ = ", a++);
+ console.log("a= ", a);
+
+ console.log("a = ", a, "& b = ", b);
+ console.log("++b = ", ++b);
+ console.log("b= ", b);
